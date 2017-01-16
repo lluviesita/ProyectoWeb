@@ -1,0 +1,145 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #f1f1f1;
+  font-family: Pacifico;
+}
+
+h1{
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0,0,0);/*Rojo verde azul*/
+  /*color: rgba(0,0,0,0);/*Rojo transparencia azul*/
+  /*color white;
+  color: #ffffff;
+  color: #fff;*/
+}
+
+a:hover{
+color: #ccc;
+}
+.menu-navegacion a{
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  margin: 0px 10px;
+  background: black;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+li{
+  display: inline;
+}
+li:hover a{
+  background: #ccc;
+}
+li.activo a{
+background: #ccc;
+  }
+  .h1{
+    text-align: center;
+    color: black;
+  }
+h1,h2{
+  text-align: center;
+  padding-top: 20px ;
+}
+
+.cabecera{
+  margin: 0px;
+  background-color: black ;
+}
+.footer{
+  background: gray;
+  padding: 20px;
+  height: 60px;
+  bottom: 0px;
+}
+.menu-navegacion{
+  text-align: center;
+  list-style-type: disc;
+}
+/*hr {border: 1px dashed grey;
+  height: 0;
+  width: 60%;
+}*/
+img {
+  position: relative;
+  border-radius: 8px;
+  width: 300px;
+  height: 250px;
+}
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+@font-face {
+    font-family: 'Pacifico';
+    src: local('Pacifico'),
+         url('../fonts/Pacifico.ttf') format('truetype');
+}
+ul{
+list-style: none;
+}
+div{
+  display: block;
+}
+.informacion-personal{
+  border: 1px solid #ccc;
+  width: 30%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  text-align: center;
+}
+
+.informacion-justificada{
+  margin: 100px;
+  border: 1px solid #ccc;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  text-align: justify;
+}
+
+.informacion-personal ul{
+  list-style-type: disc;
+}
+
+#doble{
+	font-weight: bold;
+	font-style: italic;
+}
+
+table {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 640px;
+  border-collapse: collapse;
+}
+
+td, th { border: 1px solid transparent; height: 30px; }
+th { background: #D3D3D3; font-weight: bold; }
+td { background: #FAFAFA; text-align: center; }
+tr:nth-child(even) td { background: #F1F1F1; }
+tr:nth-child(odd) td { background: #FEFEFE; }
+tr td:hover { background: #666; color: #FFF; }
+th, td {
+    padding: 20px;
+}
+
+hr{
+   border: 2px dashed #ccc; /*dotted*/
+   width: 50%;
+}

@@ -1,0 +1,17 @@
+div{
+width: 100px;
+height: 100px;
+background: #a4a8f4;
+font-size: 30px;
+}
+
+.caja{
+position: relative;
+/*position: absolute;*/
+background: red;
+top: 200px;
+bottom: 0px;
+right: 0px;
+left: 0px;
+
+}
